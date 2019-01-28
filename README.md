@@ -1,2 +1,2 @@
 # StickerStore
-A marketplace for buying and selling Stickers
+A marketplace for buying and selling stickers

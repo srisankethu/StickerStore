@@ -1,0 +1,29 @@
+{
+  "name": "stickerstore",
+  "version": "1.0.0",
+  "description": "A decentralised marketplace to buy and sell stickers",
+  "scripts": {
+    "start": "node app",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srisankethu/StickerStore.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0",
+    "web3": "^0.20.7"
+  },
+  "keywords": [
+    "0x"
+  ],
+  "author": "Sri Sanketh Uppalapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srisankethu/StickerStore/issues"
+  },
+  "homepage": "https://github.com/srisankethu/StickerStore/blob/master/README.md"
+}
