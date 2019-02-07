@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    title StickerStore
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css')
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js")
+  body
+    nav(class="navbar navbar-expand-sm bg-light")
+      div(class="container-fluid")
+        div(class="navbar-header")
+          a(class="navbar-brand" href = "/") Dashboard
+        ul(class="navbar-nav")
+          li(class="nav-item")
+            a(class="nav-link" href="/marketplace") Marketplace
+          li(class="nav-item")
+            a(class="nav-link" href="/login") LogIn
+    br
+
+    div(class="card")
+      h5(class="card-header info-color white-text text-center py-4")
+        strong Register
+      form(class="text-center" method="POST")
+        div(class = "form-group")
+          label(for="username") Username:
+          input(name="username")
+        br
+        div(class = "form-group")
+          label(for="email") E-Mail:
+          input(name="email")
+        br
+        div(class = "form-group")
+          label(for="password") Password:
+          input(name="password" type="password")
+        br
+        div(class = "form-group")
+          label(for="retype-password") Retype Password:
+          input(name="retype-password")
+        br
+        button(type="submit" class="btn btn-primary") Login

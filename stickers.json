@@ -1,0 +1,67 @@
+[{
+		"name": "cold",
+		"addr": "0x00",
+		"image": "sticker_1.png",
+		"cost": 0.1
+	},
+	{
+		"name": "women",
+		"addr": "0x00",
+		"image": "sticker_2.png",
+		"cost": 0.1
+	},
+	{
+		"name": "chuckle",
+		"addr": "0x00",
+		"image": "sticker_3.png",
+		"cost": 0.1
+	},
+	{
+		"name": "fairy",
+		"addr": "0x00",
+		"image": "sticker_4.png",
+		"cost": 0.1
+	},
+	{
+		"name": "cool",
+		"addr": "0x00",
+		"image": "sticker_5.png",
+		"cost": 0.1
+	},
+	{
+		"name": "pose",
+		"addr": "0x00",
+		"image": "sticker_6.png",
+		"cost": 0.1
+	},
+	{
+		"name": "love",
+		"addr": "0x00",
+		"image": "sticker_7.png",
+		"cost": 0.1
+	},
+	{
+		"name": "amazed",
+		"addr": "0x00",
+		"image": "sticker_8.png",
+		"cost": 0.1
+	},
+	{
+		"name": "money",
+		"addr": "0x00",
+		"image": "sticker_9.png",
+		"cost": 0.1
+	},
+	{
+		"name": "smile",
+		"addr": "0x00",
+		"image": "sticker_10.png",
+		"cost": 0.1
+	},
+	{
+		"name": "LOL",
+		"addr": "0x00",
+		"image": "sticker_11.png",
+		"cost": 0.1
+	}
+]

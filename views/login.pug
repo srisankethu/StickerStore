@@ -14,6 +14,19 @@ html
             a(class="nav-link" href="/marketplace") Marketplace
           li(class="nav-item")
             a(class="nav-link" href="/login") LogIn
-
     br
-    h1(class = "text-center") Welcome to Sticker Store
+
+    div(class="card")
+      h5(class="card-header info-color white-text text-center py-4")
+        strong Log in
+      form(class="text-center" method="POST")
+        div(class = "form-group")
+          label(for="username") Username:
+          input(name="username")
+        br
+        div(class = "md-form")
+          label(for="password") Password:
+          input(name="password" type="password")
+        a(href="/register") Have not registered yet!?
+        br
+        button(type="submit" class="btn btn-primary") Login

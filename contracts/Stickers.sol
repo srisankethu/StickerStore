@@ -20,7 +20,7 @@ contract Stickers is ERC721Token("StickersToken", "STK"), Ownable {
 
     modifier mintable {
         require(
-            isMintable == true;
+            isMintable == true,
             "New stickers are not mintable on this contract"
         );
         _;
@@ -56,7 +56,7 @@ contract Stickers is ERC721Token("StickersToken", "STK"), Ownable {
     }
 
     function getNumClonesInWild(uint256 _tokenId) view public returns (uint256 numClonesInWild)
-    {   
+    {
         Sticker memory _sticker = stickers[_tokenId];
 
         numClonesInWild = _sticker.numClonesInWild;
